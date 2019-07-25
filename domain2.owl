@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/fmsont#"
+     xml:base="http://www.semanticweb.org/fmsont"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fmsont"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fmsont#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Pallet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasPallet -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fmsont#hasPallet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasStorage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fmsont#hasStorage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Equipment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fmsont#StorageBuffer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasAllowedtypes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasAllowedtypes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#StorageBuffer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasCatalogName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasCatalogName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#ToolMagazine"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#StorageBuffer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasOrderDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasOrderDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Order"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasOrderNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasOrderNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Order"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasOrderStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasOrderStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Order"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasPart -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Order"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasQty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasQty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Order"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasReadyQty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasReadyQty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Order"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasToolDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasToolDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#ToolMagazine"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasToolLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasToolLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#ToolMagazine"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasToolStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasToolStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#ToolMagazine"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasToolSystem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasToolSystem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#ToolMagazine"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasWidth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#StorageBuffer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasXcoord -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasXcoord">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Equipment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#StorageBuffer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#hasYcoord -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fmsont#hasYcoord">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#Equipment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fmsont#StorageBuffer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Fixtures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Fixtures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Inventory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Inventory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Inventory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#NCLibrary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#NCLibrary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Order">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Pallet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Pallet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Inventory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Parts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Parts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Inventory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#Resource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#StorageBuffer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#StorageBuffer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fmsont#ToolMagazine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fmsont#ToolMagazine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fmsont#Equipment"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
